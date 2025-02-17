@@ -56,5 +56,9 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(add_numbers(2, 1), 1)
         self.assertEqual(add_numbers(-1, 1), -2)
 
+    def test_multiply_numbers(self):
+        self.assertEqual(add_numbers(2, 3), 6)
+        self.assertEqual(add_numbers(-1, 1), -1)
+
 if __name__ == '__main__':
     unittest.main()
